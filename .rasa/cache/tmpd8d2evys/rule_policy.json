@@ -1,0 +1,36 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}]": "utter_greet",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}, {\"prev_action\": {\"action_name\": \"utter_greet\"}, \"user\": {\"intent\": \"greet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mental_health_support\"}}]": "action_mental_health_support",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mental_health_support\"}}, {\"prev_action\": {\"action_name\": \"action_mental_health_support\"}, \"user\": {\"intent\": \"mental_health_support\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mood_sad\"}}]": "utter_mood_sad",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mood_sad\"}}, {\"prev_action\": {\"action_name\": \"utter_mood_sad\"}, \"user\": {\"intent\": \"mood_sad\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"affirm\"}}]": "utter_affirmation",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"affirm\"}}, {\"prev_action\": {\"action_name\": \"utter_affirmation\"}, \"user\": {\"intent\": \"affirm\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"diabetes_prevention\"}}]": "action_diabetes_prevention",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"diabetes_prevention\"}}, {\"prev_action\": {\"action_name\": \"action_diabetes_prevention\"}, \"user\": {\"intent\": \"diabetes_prevention\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"manage_condition\"}}]": "utter_manage_condition",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"manage_condition\"}}, {\"prev_action\": {\"action_name\": \"utter_manage_condition\"}, \"user\": {\"intent\": \"manage_condition\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"monitor_condition\"}}]": "utter_monitor_condition",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"monitor_condition\"}}, {\"prev_action\": {\"action_name\": \"utter_monitor_condition\"}, \"user\": {\"intent\": \"monitor_condition\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"hypertension_prevention\"}}]": "action_hypertension_prevention",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"hypertension_prevention\"}}, {\"prev_action\": {\"action_name\": \"action_hypertension_prevention\"}, \"user\": {\"intent\": \"hypertension_prevention\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inform_condition\"}}]": "utter_inform_condition",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inform_condition\"}}, {\"prev_action\": {\"action_name\": \"utter_inform_condition\"}, \"user\": {\"intent\": \"inform_condition\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mood_great\"}}]": "utter_happy",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mood_great\"}}, {\"prev_action\": {\"action_name\": \"utter_happy\"}, \"user\": {\"intent\": \"mood_great\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"affirm\"}}, {\"prev_action\": {\"action_name\": \"utter_affirmation\"}, \"user\": {\"intent\": \"affirm\"}}]",
+      "predicting default action with intent restart",
+      "predicting default action with intent back",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"affirm\"}}]"
+    ]
+  }
+}

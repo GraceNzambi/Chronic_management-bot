@@ -1,0 +1,111 @@
+{
+  "utter_iamabot": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "utter_did_that_help": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3
+  },
+  "bot_challenge": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "mood_great": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "goodbye": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "mood_unhappy": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3
+  },
+  "affirm": {
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1-score": 0.33333333333333337,
+    "support": 1
+  },
+  "utter_goodbye": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 4
+  },
+  "utter_cheer_up": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "utter_happy": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3
+  },
+  "action_listen": {
+    "precision": 0.8421052631578947,
+    "recall": 1.0,
+    "f1-score": 0.9142857142857143,
+    "support": 16
+  },
+  "utter_greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "deny": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "micro avg": {
+    "precision": 0.7608695652173914,
+    "recall": 0.6862745098039216,
+    "f1-score": 0.7216494845360826,
+    "support": 51
+  },
+  "macro avg": {
+    "precision": 0.39586466165413536,
+    "recall": 0.4761904761904762,
+    "f1-score": 0.40816326530612246,
+    "support": 51
+  },
+  "weighted avg": {
+    "precision": 0.6014447884416925,
+    "recall": 0.6862745098039216,
+    "f1-score": 0.6280112044817926,
+    "support": 51
+  },
+  "accuracy": 0.6862745098039216,
+  "conversation_accuracy": {
+    "accuracy": 0.14285714285714285,
+    "correct": 1,
+    "with_warnings": 0,
+    "total": 7
+  }
+}

@@ -1,0 +1,103 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+    - hi there
+
+- intent: mood_great
+  examples: |
+    - I'm feeling great
+    - I feel amazing
+    - I'm doing well
+    - Everything is going well
+    - I'm feeling good
+    - I'm happy
+
+- intent: mood_sad
+  examples: |
+    - I'm feeling sad
+    - I'm feeling down
+    - I'm not doing well
+    - Everything is going wrong
+    - I'm unhappy
+    - I'm feeling blue
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - sure
+    - absolutely
+    - indeed
+    - you're right
+
+- intent: goodbye
+    - goodbye
+    - bye
+    - see you
+
+- intent: inform_condition
+  examples: |
+    - What is hypertension?
+    - What are the symptoms of diabetes?
+    - Can you tell me about type 2 diabetes?
+    - What is high blood pressure?
+    - What are the risks of hypertension?
+    - What are the complications of diabetes?
+
+- intent: monitor_condition_hypertension
+  examples: |
+    - What are the best ways to track my blood pressure at home?
+    - How do I know if my blood pressure is too high?
+    
+- intent: monitor_condition_diabetes
+  examples: |
+    - How can I monitor my blood sugar?
+    - What should I do if my blood sugar levels are too high or too low?
+    - What are the ways of monitoring diabetes
+
+- intent: manage_condition_hypertension
+  examples: |
+    - How can I manage my bloodpressure?
+    - What foods should I eat to control hypertension?
+    - What exercises can help me lower my blood pressure?
+
+- intent: manage_condition_diabetes
+  examples: |
+    - How can I manage my diabetes?
+    - What lifestyle changes can I make to control my diabetes?
+    - What foods should I eat to control my blood sugar?
+    - What exercises can help me manage diabetes?
+
+- intent: mental_health_support
+  examples: |
+    - I'm feeling really anxious about managing my diabetes.
+    - How can I cope with the stress of managing my hypertension?
+    - Can you recommend any resources for managing the mental health effects of living with a chronic condition?
+
+- intent: hypertension_prevention
+  examples: |
+    - How can I prevent hypertension?
+    - What lifestyle changes can I make to reduce my risk of developing high blood pressure?
+    - What are some tips for managing my blood pressure naturally?
+    - How can I lower my blood pressure without medication?
+
+- intent: diabetes_prevention
+  examples: |
+    - What can I do to prevent diabetes?
+    - How can I reduce my risk of developing type 2 diabetes?
+    - What are some lifestyle changes that can help me avoid diabetes?
+    - What foods should I avoid to reduce my risk of developing diabetes?
+
+- intent: diabetes_prevention
+  examples: |
+    - What can I do to prevent diabetes?
+    - How can I reduce my risk of developing type 2 diabetes?
+    - What are some lifestyle changes that can help me avoid diabetes?
+    - What foods should I avoid to reduce my risk of developing diabetes?

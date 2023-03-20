@@ -1,0 +1,98 @@
+[
+  {
+    "text": "What are the best ways to track my blood pressure at home?",
+    "intent": "monitor_condition_hypertension",
+    "intent_prediction": {
+      "name": "monitor_condition",
+      "confidence": 0.9998914003372192
+    }
+  },
+  {
+    "text": "How do I know if my blood pressure is too high?",
+    "intent": "monitor_condition_hypertension",
+    "intent_prediction": {
+      "name": "monitor_condition",
+      "confidence": 0.9999022483825684
+    }
+  },
+  {
+    "text": "How can I monitor my blood sugar?",
+    "intent": "monitor_condition_diabetes",
+    "intent_prediction": {
+      "name": "monitor_condition",
+      "confidence": 0.9998785257339478
+    }
+  },
+  {
+    "text": "What should I do if my blood sugar levels are too high or too low?",
+    "intent": "monitor_condition_diabetes",
+    "intent_prediction": {
+      "name": "monitor_condition",
+      "confidence": 0.9999359846115112
+    }
+  },
+  {
+    "text": "What are the ways of monitoring diabetes",
+    "intent": "monitor_condition_diabetes",
+    "intent_prediction": {
+      "name": "monitor_condition",
+      "confidence": 0.5027574300765991
+    }
+  },
+  {
+    "text": "How can I manage my bloodpressure?",
+    "intent": "manage_condition_hypertension",
+    "intent_prediction": {
+      "name": "manage_condition",
+      "confidence": 0.9945863485336304
+    }
+  },
+  {
+    "text": "What foods should I eat to control hypertension?",
+    "intent": "manage_condition_hypertension",
+    "intent_prediction": {
+      "name": "manage_condition",
+      "confidence": 0.9970550537109375
+    }
+  },
+  {
+    "text": "What exercises can help me lower my blood pressure?",
+    "intent": "manage_condition_hypertension",
+    "intent_prediction": {
+      "name": "manage_condition",
+      "confidence": 0.9997116923332214
+    }
+  },
+  {
+    "text": "How can I manage my diabetes?",
+    "intent": "manage_condition_diabetes",
+    "intent_prediction": {
+      "name": "manage_condition",
+      "confidence": 0.9994447827339172
+    }
+  },
+  {
+    "text": "What lifestyle changes can I make to control my diabetes?",
+    "intent": "manage_condition_diabetes",
+    "intent_prediction": {
+      "name": "manage_condition",
+      "confidence": 0.9997462630271912
+    }
+  },
+  {
+    "text": "What foods should I eat to control my blood sugar?",
+    "intent": "manage_condition_diabetes",
+    "intent_prediction": {
+      "name": "manage_condition",
+      "confidence": 0.9997358918190002
+    }
+  },
+  {
+    "text": "What exercises can help me manage diabetes?",
+    "intent": "manage_condition_diabetes",
+    "intent_prediction": {
+      "name": "manage_condition",
+      "confidence": 0.998540997505188
+    }
+  }
+]

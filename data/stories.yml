@@ -1,0 +1,96 @@
+version: "3.1"
+
+stories:
+- story: greet and ask about hypertension
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform_condition
+    entities:
+    - condition: hypertension
+  - action: utter_inform_condition
+
+- story: greet and ask about diabetes
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform_condition
+    entities:
+    - condition: diabetes
+  - action: utter_inform_condition
+
+- story: ask about blood pressure monitoring
+  steps:
+  - intent: monitor_condition_hypertension
+    entities:
+    - condition: blood pressure
+  - action: utter_monitor_condition_hypertension
+
+
+- story: ask about diabetes prevention
+  steps:
+  - intent: diabetes_prevention
+  - action: action_diabetes_prevention
+
+- story: ask about hypertension prevention
+  steps:
+  - intent: hypertension_prevention
+  - action: action_hypertension_prevention
+
+- story: ask about managing diabetes
+  steps:
+  - intent: manage_condition_diabetes
+    entities:
+    - condition: diabetes
+  - action: utter_manage_condition_diabetes
+
+- story: ask about managing hypertension
+  steps:
+  - intent: manage_condition_hypertension
+    entities:
+    - condition: hypertension
+  - action: utter_manage_condition_hypertension
+
+- story: ask for mental health support
+  steps:
+  - intent: mental_health_support
+    entities:
+    - condition: diabetes
+  - action: action_mental_health_support
+
+- story: Greet and manage chronic condition
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform_condition
+  - action: utter_inform_condition
+  - intent: monitor_condition_diabetes
+  - action: utter_monitor_condition_diabetes
+  - intent: manage_condition_diabetes
+  - action: utter_manage_condition_diabetes
+ 
+- story: Greet and end conversation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Positive mood and ask for chronic condition info
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+  - intent: inform_condition
+  - action: utter_inform_condition
+
+- story: Negative mood and ask for chronic condition management tips
+  steps:
+  - intent: mood_sad
+  - action: utter_mood_sad
+  - intent: manage_condition_hypertension
+  - action: utter_manage_condition_hypertension
+
+
+
+
+
